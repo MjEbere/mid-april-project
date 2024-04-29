@@ -43,10 +43,6 @@ a{
     font-weight: 600;
 }
 
-a:hover{
-    color: hsl(0, 0%, 12%);
-}
-
 .link{
     background-color: hsl(0, 0%, 20%);
     margin-top: 10px;
@@ -59,4 +55,8 @@ a:hover{
 
 .link:hover{
     background-color: hsl(75, 94%, 57%);
+}
+
+.link:hover a{
+    color: hsl(0, 0%, 12%);
 }
